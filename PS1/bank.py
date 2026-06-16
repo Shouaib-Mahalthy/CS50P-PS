@@ -1,7 +1,7 @@
 greeting = input().lower()
 if greeting.startswith("hello"):
   print("$0")
-elif greeting.startswith('h'):
+elif greeting.startswith('h') and not greeting.startswith("hello"):
   print("$20")
 else:
   print("$")
