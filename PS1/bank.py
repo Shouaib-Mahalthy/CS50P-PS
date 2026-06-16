@@ -4,5 +4,5 @@ if greeting.startswith("hello"):
 elif greeting.startswith('h') and not greeting.startswith("hello"):
   print("$20")
 else:
-  print("$")
+  print("$100")
   
